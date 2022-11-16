@@ -1,0 +1,130 @@
+:root{
+    --cor-de-fundo: #E9F7FA;
+    --cor-primaria: #225C73;
+    --cor-secundaria: #4B8CA6;
+    --cor-alternativa: #73B1BF;
+    --cor-alternativa2: #A0CED9;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin: auto;
+    text-align: center;
+    background-color: var(--cor-alternativa2);
+    color: var(--cor-primaria);
+    padding: 10px;
+    border: 2px solid var(--cor-alternativa);
+    width: 48.2%;
+}
+
+header h1{
+    text-shadow: 2px 3px 5px var(--cor-secundaria);
+}
+
+main{
+    width: 50%;
+    margin: auto;
+}
+
+.definicao-de-estilo{
+    border: 2px solid var(--cor-alternativa);
+    border-left: 4px solid var(--cor-alternativa);
+    border-right: 4px solid var(--cor-alternativa);
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: var(--cor-primaria);
+}
+
+.definicao-de-estilo h2{
+    text-align: center;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-alternativa2);
+    width: 300px;
+    margin-left: 25%;
+    border-radius: 10px;
+    border: 2px solid var(--cor-alternativa);
+}
+
+.definicao-de-estilo .subtitulo{
+    color: var(--cor-secundaria);
+    text-indent: 20px;
+}
+
+.space{
+    width: 200px;
+    margin-bottom: 2.5px;
+}
+
+#nome{
+    width: 210px;
+}
+
+#endereco{
+    width: 178px;
+}
+
+#estado{
+    width: 210px;
+}
+
+.dados-profissionais{
+    border: 2px solid var(--cor-alternativa);
+    border-left: 4px solid var(--cor-alternativa);
+    border-right: 4px solid var(--cor-alternativa);
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: var(--cor-primaria);
+}
+
+.dados-profissionais h2{
+    text-align: center;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-alternativa2);
+    width: 300px;
+    margin-left: 25%;
+    border-radius: 10px;
+    border: 2px solid var(--cor-alternativa);
+}
+
+.dados-profissionais .subtitulo{
+    color: var(--cor-secundaria);
+    text-indent: 20px;
+}
+
+textarea{
+    margin-top: 20px;
+    border: 2px solid var(--cor-alternativa2);
+}
+
+input{
+    border: 2px solid var(--cor-alternativa2);
+}
+
+select{
+    border: 2px solid var(--cor-alternativa2);
+}
+
+.botao{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#botao-enviar{
+    background-color: var(--cor-alternativa2);
+    border: 2px solid var(--cor-primaria);
+    width: 100px;
+    height: 25px;
+}
+
+#botao-limpar{
+    background-color: var(--cor-alternativa2);
+    border: 2px solid var(--cor-primaria);
+    width: 100px;
+    height: 25px;
+}
+
+

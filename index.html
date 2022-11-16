@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <header>
+        <h1>Resumo de tudo</h1>
+    </header>
+
+    <main>
+        <section>
+            <form id="formulario">
+                <section class="definicao-de-estilo">
+                    <h2>Dados pessoais</h2>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" class="space" id="nome" placeholder="Digite seu nome"><br>
+                    <label for="endereco">Enderenço:</label>
+                    <input type="search" name="endereco" class="space" id="endereco" placeholder="Endereço"><br>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" name="cidade" class="space" id="cidade" placeholder="Cidade"><br>
+
+                    <label for="estado">Estado:</label>
+                    <select name="estado" id="estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </section>
+
+                <section class="dados-profissionais">
+                    <section>
+                        <h2>Dados profissionais</h2>
+                        <h3 class="subtitulo">Cargo</h3>
+                        <label for="gerencia">Gerência</label>
+                        <input type="radio" name="cargo" id="gerencia">
+                        <label for="financeiro">Financeiro</label>
+                        <input type="radio" name="cargo" id="financeiro">
+                        <label for="recepcao">Recepção</label>
+                        <input type="radio" name="cargo" id="recepcao">
+                        <label for="administrativo">Administrativo</label>
+                        <input type="radio" name="cargo" id="administrativo">
+                        <label for="juridico">Jurídico</label>
+                        <input type="radio" name="cargo" id="juridico">
+                    </section>
+                    
+                    <section>
+                        <h3 class="subtitulo">Área de interesse</h3>
+                        <input type="checkbox" name="interesse" id="computacao">
+                        <label for="interesse">Computação</label>
+                        <input type="checkbox" name="interesse" id="biologia">
+                        <label for="interesse">Biologia</label>
+                        <input type="checkbox" name="interesse" id="meio-ambiente">
+                        <label for="interesse">Meio Ambiente</label>
+                        <input type="checkbox" name="interesse" id="engenharia">
+                        <label for="interesse">Engenharia</label>
+                        <input type="checkbox" name="interesse" id="historia">
+                        <label for="interesse">História</label>
+                        <section class="secao-mini-curriculo">
+                            <label for="mini-curriculo">Mini-curriculo</label>
+                            <textarea name="mini-curriculo" id="mini-curriculo" cols="50" rows="5"></textarea>
+                        </section>
+                    </section>
+                </section>
+                <div class="botao">
+                    <button type="submit" id="botao-enviar" >Enviar</button>
+                    <button type="reset"id="botao-limpar">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
