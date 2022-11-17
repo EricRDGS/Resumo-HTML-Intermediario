@@ -3,4 +3,4 @@ Resumo de tudo que aprendi de HTML Intermerdiario no curso DevQuest. Neste módu
 
 <img src="resumo.gif" alt="Apresentação">
 
-<a href="https://ericrdgs.github.io/Resumo-HTML-Intermediario/">Acessar o resumo</a>
+<a href="https://ericrdgs.github.io/Resumo-HTML-Intermediario/">=======================================> Acessar o resumo <=======================================</a>
